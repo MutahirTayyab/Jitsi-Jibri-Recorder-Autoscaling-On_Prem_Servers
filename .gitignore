@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Environment / secrets
 .env
 .env.*
@@ -40,23 +39,3 @@ Thumbs.db
 # Backups
 *.bak
 *.backup
-=======
-.env
-*.env
-!.env.example
-
-config/
-recordings/
-logs/
-ssl/
-
-*.mp4
-*.webm
-*.log
-*.pem
-*.key
-*.crt
-
-.DS_Store
-*.backup*
->>>>>>> 4ef7c47481139d2d6a5d563df2191301349fa20e
