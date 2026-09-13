@@ -1,0 +1,41 @@
+# Environment / secrets
+.env
+.env.*
+*.env
+
+# SSL certificates / private keys
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+
+# Jitsi / Jibri secrets
+secrets/
+credentials/
+certificates/
+
+# Recordings
+recordings/
+*.mp4
+*.mkv
+*.webm
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# Backups
+*.bak
+*.backup
