@@ -245,8 +245,8 @@ sudo modprobe snd-aloop
 Verify:
 
 ```bash
-aplay -l | grep -i loopback
-arecord -l | grep -i loopback
+sudo aplay -l | grep -i loopback
+sudo arecord -l | grep -i loopback
 ```
 
 If loopback devices do not appear correctly, reboot the Jibri server:
@@ -258,7 +258,7 @@ sudo reboot
 After reconnecting:
 
 ```bash
-aplay -l | grep -i loopback
+sudo aplay -l | grep -i loopback
 ```
 
 ---
